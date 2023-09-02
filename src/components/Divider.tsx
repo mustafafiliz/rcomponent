@@ -7,9 +7,9 @@ type Props = {
   marginBottom?: number
 }
 
-const Divider = ({ color = "#ddd", height = 1, marginTop = 10, marginBottom = 10 }: Props) => {
+const Divider = ({ color = '#ddd', height = 1, marginTop = 10, marginBottom = 10 }: Props) => {
   return (
-    <div style={{ color, height, marginTop, marginBottom }} />
+    <div style={{ backgroundColor: color, height, marginTop, marginBottom }} />
   )
 }
 
