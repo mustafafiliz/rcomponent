@@ -1,0 +1,32 @@
+{
+  "name": "rcomponent",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/cjs/index.js",
+  "scripts": {
+    "build": "yarn build:esm && yarn build:cjs",
+    "build:esm": "tsc",
+    "build:cjs": "tsc --module commonjs --outDir dist/cjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mustafafiliz/rcomponent.git"
+  },
+  "keywords": [
+    "react",
+    "typescript",
+    "divider"
+  ],
+  "author": "Mustafa Filiz (mustafafiliz)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mustafafiliz/rcomponent/issues"
+  },
+  "homepage": "https://github.com/mustafafiliz/rcomponent#readme",
+  "devDependencies": {
+    "@types/react": "^18.2.21",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^5.2.2"
+  }
+}
