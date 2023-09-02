@@ -1,8 +1,10 @@
 {
-  "name": "rcomponent",
-  "version": "1.0.0",
+  "name": "react-divider-mf",
+  "version": "1.0.1",
   "description": "",
   "main": "./dist/cjs/index.js",
+  "module": "./dist/esm/index.js",
+  "types": "./dist/esm/index.d.ts",
   "scripts": {
     "build": "yarn build:esm && yarn build:cjs",
     "build:esm": "tsc",
